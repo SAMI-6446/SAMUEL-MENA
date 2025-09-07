@@ -3,8 +3,7 @@
   background-color: var(--surface-color);
   display: flex;
   justify-content: center;
-  position: absolute;
-  left: 150px;
+  left: 100px;
   width: 50%;
   height: 150px;
   align-items: center;
@@ -12,7 +11,6 @@
   transition: 0.3s;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   position: relative;
-  
 }
 
 .project .features-item i {
