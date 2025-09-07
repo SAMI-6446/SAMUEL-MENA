@@ -1,29 +1,15 @@
-section#about.about.section{background-color: black;color: white;}
-.about .content h2 {
-  font-weight: 700;
-  font-size: 24px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+.about{
+  border: 1px solid red;
+ padding: 5px;
+ width: 100%;
 }
+.content{
+  border: 1px solid blue;
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
 }
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+.about-head{
+  padding-bottom: 10px;
 }
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
+.section-title{
+  text-align: center;
 }

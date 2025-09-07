@@ -522,11 +522,12 @@ section,
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: var(--accent-color);
-  left: 0;
+  left: 103px;
   bottom: 0;
+  top: 40px;
 }
 
 .section-title p {

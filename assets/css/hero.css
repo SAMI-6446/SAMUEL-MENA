@@ -1,12 +1,10 @@
 .hero {
   width: 100%;
   height: 50%;
-  position: absolute;
   margin-bottom: 10px;
 }
 
 .hero img {
-  position: absolute;
   inset: 0;
   display: block;
   width: 100%;
@@ -18,13 +16,12 @@
  .hero:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 70%);
-  position: absolute;
   inset: 0;
   z-index: 2;
 } 
 
 .hero .container {
-  position: absolute;
+  /* position: absolute; */
   top: 100px;
   z-index: 3;
 }
