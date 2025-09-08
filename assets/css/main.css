@@ -519,14 +519,14 @@ section,
 
 .section-title h2:after {
   content: "";
-  position: absolute;
+  position: relative;
   display: block;
   width: 100px;
   height: 3px;
   background: var(--accent-color);
-  left: 103px;
+  left: 30%;
   bottom: 0;
-  top: 40px;
+  top: 5px;
 }
 
 .section-title p {

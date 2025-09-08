@@ -42,6 +42,10 @@
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
 }
+.hero-des p{
+  display: flex;
+  
+}
 /*
 .hero .social-links {
   margin-top: 25px;

@@ -1,4 +1,19 @@
-.skills{background-color: #040b14;color: white;}
+.skills{
+  background-color: #040b14;
+  color: white;
+  padding: 8px;
+}
+.skill-stack{
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.skill-container{
+  border: 1px solid red;
+  margin-top: 0;
+}
 .skills .progress {
   height: 60px;
   display: block;
