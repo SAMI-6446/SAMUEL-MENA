@@ -68,16 +68,7 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-/* 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-color);
-  font-family: var(--heading-font);
-} */
+
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -450,4 +441,50 @@ section,
 #message-field{
   position: relative;
   width: 100%;
+}
+.progress-value{
+  background-color: green;
+  position: relative;
+  width: 80%;
+}
+.sami{
+  display: flex;
+  border: 1px solid purple;
+  gap: 4px;
+  align-items: center;
+}
+.html{
+  border: 1px red solid;
+}
+.graph{
+  position: relative;
+  border: 1px red solid;
+  /* left: 10%; */
+  
+}
+.graph-2{
+  border: 1px solid green;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 90px;
+  background-color: green;
+  
+}
+ .my{
+  border: 1px solid rgb(224, 230, 224);
+  position: relative;
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  /* margin: 5px;  */
+}
+.descrption{
+  padding: 10px;
+}
+.checklist{
+  background-color: green;
+  width:50px;
+  color: green;
 }
