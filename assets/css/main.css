@@ -403,3 +403,51 @@ section,
   padding: 60px 0;
   overflow: clip;
 }
+.forms{
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  
+}
+
+.family-form{
+  border: 1px solid green;
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin-left: 10%;
+}
+.yes{
+  border: 1px solid red;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.naap{
+  border: 1px solid rgb(111, 0, 255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.noop{
+  border: 1px solid rgb(216, 13, 189);
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.contact-input{
+  position: relative;
+  width: 70%;
+
+}
+#message-field{
+  position: relative;
+  width: 100%;
+}
