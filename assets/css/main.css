@@ -1,16 +1,21 @@
 /* my style */
-.black{background-color: black;color: #040b14;}
+.black {
+  background-color: black;
+  color: #040b14;
+}
 /* end my style */
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website 
 */
-:root { 
+:root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
@@ -21,7 +26,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #a8a9b4;  /* The default color of the main navmenu links */
+  --nav-color: #a8a9b4; /* The default color of the main navmenu links */
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -58,7 +63,6 @@ body {
   font-family: var(--default-font);
 }
 
-
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -70,58 +74,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-/* PHP Email Form Messages
-------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: var(--surface-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
-}
-
-@keyframes php-email-form-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Global Header
@@ -157,8 +109,6 @@ a:hover {
   color: white;
 }
 
-
-
 .header .pro-iv .social-links a {
   display: inline-flex;
   align-items: center;
@@ -172,12 +122,13 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-
-  .header~main,
-  .header~#footer {
+  .header ~ main,
+  .header ~ #footer {
     margin-left: 23%;
   }
-  .project .features-item{width: 80%;}
+  .project .features-item {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -285,8 +236,6 @@ a:hover {
   color: var(--accent-color);
 }
 
-
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -375,97 +324,30 @@ section,
   padding: 60px 0;
   overflow: clip;
 }
-.forms{
-  border: 1px solid red;
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  
-}
 
-.family-form{
-  border: 1px solid green;
+.progress-value {
+  background-color: rgb(128, 0, 100);
   position: relative;
-  width: 80%;
-  max-width: 700px;
-  margin-left: 10%;
 }
-.yes{
-  border: 1px solid red;
-  position: relative;
-  width: 100%;
-  max-width: 700px;
+.sami {
   display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-.naap{
-  border: 1px solid rgb(111, 0, 255);
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.noop{
-  border: 1px solid rgb(216, 13, 189);
-  position: relative;
-  width: 100%;
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-.contact-input{
-  position: relative;
-  width: 70%;
-
-}
-#message-field{
-  position: relative;
-  width: 100%;
-}
-.progress-value{
-  background-color: green;
-  position: relative;
-  width: 80%;
-}
-.sami{
-  display: flex;
-  border: 1px solid purple;
   gap: 4px;
   align-items: center;
 }
-.html{
-  border: 1px red solid;
+.html {
+  width: 100px;
 }
-.graph{
+.set {
+  margin-left: 15px;
+}
+.graph {
   position: relative;
-  border: 1px red solid;
-  /* left: 10%; */
-  
 }
-.graph-2{
-  border: 1px solid green;
-  position: relative;
-  width: 90px;
-  height: 90px;
-  border-radius: 90px;
-  background-color: green;
-  
-}
- .my{
-  border: 1px solid rgb(224, 230, 224);
-  position: relative;
-  background-color: red;
-  width: 70px;
-  height: 70px;
-  border-radius: 70px;
-  /* margin: 5px;  */
-}
-.descrption{
+.descrption {
   padding: 10px;
 }
-.checklist{
+.checklist {
   background-color: green;
-  width:50px;
+  width: 50px;
   color: green;
 }
